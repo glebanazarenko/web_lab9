@@ -1,0 +1,202 @@
+
+header {
+    width: 100%;
+    display: flex;
+    font-family: 'Bitter', serif;
+    position: fixed;
+    top: 0;
+    height: 15%;
+    background: #d3d3d3;
+}
+
+.h {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.table-nav {
+    margin: auto;
+
+}
+
+.headerInfo {
+    float: right;
+    font-family: 'Bitter', serif;
+}
+
+.naming {
+    position: absolute;
+    left: 46%;
+    top: 0px;
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+}
+
+.contactsHeader {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.menuHeader {
+    text-align: right;
+    font-size: 20px;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.companyDescription {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.feedBack {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    bottom: 0px;
+    left: -10px;
+    width: 15%;
+}
+
+.carsCategories {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+td img {
+    width: 100px;
+}
+
+th, td {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+td {
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+}
+
+.tabs {
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.tabs > input {
+    display: none;
+}
+
+.tabs > div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    font-family: 'Bitter', serif;
+}
+
+.tabs > label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #666666;
+    border: 1px solid #C0C0C0;
+    background: #E0E0E0;
+    cursor: pointer;
+    font-family: 'Bitter', serif;
+}
+
+.tabs > input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Bitter', serif;
+    background: #FFFFFF;
+}
+
+.log, .name, input[type=password], input[type=email], input[type=file], textarea, select {
+    margin-left: 25%;
+    margin: 10px 0;
+    padding: 14px 20px;
+    display: inline-block;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    width: 40%;
+}
+
+.select {
+    margin: 10px 0;
+    padding: 14px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    width: 100%;
+}
+
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    background: #ffffff;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    font-family: 'Bitter', serif;
+    position: fixed;
+    bottom: 0;
+    size: 24px;
+    background: white;
+}
+
+.etype {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
+    grid-gap: 38px;
+    justify-content: start;
+    width: 1370px;
+    border: 2px solid red;
+    height: 400px;
+    resize: both;
+    overflow: hidden;
+}
+
+.typee {
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    font: 20px sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 50px;
+    text-align: center;
+}
